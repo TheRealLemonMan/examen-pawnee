@@ -12,14 +12,15 @@
     "validar-modelos": "tsx scripts/validar-modelos.ts"
   },
   "dependencies": {
+    "dotenv": "16.4.7",
     "express": "4.21.2",
     "mongoose": "8.9.5",
-    "dotenv": "16.4.7"
+    "pawnee-examen": "file:.."
   },
   "devDependencies": {
-    "typescript": "5.7.3",
-    "tsx": "4.19.2",
     "@types/express": "4.17.21",
-    "@types/node": "22.10.5"
+    "@types/node": "22.10.5",
+    "tsx": "4.19.2",
+    "typescript": "5.7.3"
   }
 }
